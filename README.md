@@ -44,7 +44,7 @@ Students:
 ### 4. Problem definition
 ***
 <a name="create"></a>
-#### i. Create a new database called high-school with the following tables in the new database
+#### i. Create a new database called music-library with the following tables in the new database
 ****
 ##### TO DO: 
         1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be 
