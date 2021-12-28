@@ -1,6 +1,6 @@
 # DBM03-Music library
 
-![Logo de Team](https://github.com/ana-polo/DBM01-pubs/blob/main/DBM.gif "Team logo")
+![Logo de Team](https://github.com/ana-polo/DBM03-music-library/blob/main/DBM.gif "Team logo")
 
 
 <a name="top"></a>
@@ -13,13 +13,14 @@
     2. [Recording data.](#insert)
 	
 
+&nbsp;
 <a name="general-info"></a>
 ### 1. General Info
 ***
-**Status:** IN PROGRESS.
-####
 *Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems*
 
+
+&nbsp;
 <a name="technologies"></a>
 ### 2. Technologies
 ***
@@ -29,7 +30,7 @@ A list of technologies used within the project:
     - SQL-DDL: Data Definition Language* 
 
 
-[Top](#top)
+&nbsp;
 <a name="collaboration"></a>
 ### 3. Collaboration
 ***
@@ -39,27 +40,31 @@ Students:
 *IrvingVqz.*
 
 
-[Top](#top)
+&nbsp;
 <a name="problem-definition"></a>
 ### 4. Problem definition
 ***
 <a name="create"></a>
 #### i. Create a new database called music-library with the following tables in the new database
-****
-##### TO DO: 
-        1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be 
-	   informed or not.
-	   
-        2. Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints 
-	   primary keys, foreign keys, etc.
+#
+📝 **TO DO:** 
+- 1.- Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not.
+- 2.- Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc.
 
 
-**⚠️ WARNING:** All the operations must be done in the creation of the tables.
+⚠️ **WARNING:** 
+- All the operations must be done in the creation of the tables.
 
+
+👀 **Remember to not forget!**
+- Properly format and document the code.
+
+&nbsp;
 
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
-
+<br />
+	
 *MUSIC* 
 	
    - NIF. IDENTIFIER.
@@ -121,20 +126,24 @@ Students:
 </details>
 
 
-**👀 Remember to not forget!**
-- Properly format and document the code.
-#
-#
-
+&nbsp;
+&nbsp;
 <a name="insert"></a>
 #### ii. Recording data.
-****
-*
+#
+
+
+👀 **Remember to not forget!**
+- Properly format and document the code.		 
+ 
+
+&nbsp;
  
 <details>
     <summary>CLICK ME TO SEE THE DATA</summary>
      
-*	
+<br />
+
 *MUSIC*
 	
     1111111111 ;  Adrian Lee  
@@ -354,9 +363,6 @@ Students:
     7876543428 ;  004 ;  teclado  
     8884566666 ;  003 ;  bajo  
     8884566666 ;  004 ;  bajo
+
 </details>
 
-
-**👀 Remember to not forget!**
-- Properly format and document the code.		 
- 
