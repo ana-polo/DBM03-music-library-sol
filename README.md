@@ -34,10 +34,10 @@ A list of technologies used within the project:
 <a name="collaboration"></a>
 ### 3. Collaboration
 ***
-Students:
-*Haplo35.* 
-*ErnestoPGH.* 
-*IrvingVqz.*
+*Students:*
+ -Haplo35.
+- ErnestoPGH. 
+- IrvingVqz.
 
 
 &nbsp;
@@ -47,9 +47,10 @@ Students:
 <a name="create"></a>
 #### i. Create a new database called music-library with the following tables in the new database
 #
-📝 **TO DO:** 
-- 1.- Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not.
-- 2.- Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc.
+📝 **TO DO:**
+
+        1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not.
+        2. Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc.
 
 
 ⚠️ **WARNING:** 
@@ -60,68 +61,70 @@ Students:
 - Properly format and document the code.
 
 &nbsp;
-
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 <br />
 	
+	
 *MUSIC* 
 	
-   - NIF. IDENTIFIER.
-   - Name
+        - NIF. IDENTIFIER.
+        - Name
 
 *THEME* 
 	
-   - Identifier
-   - Title
-   - Duration
+
+        - Identifier
+        - Title
+        - Duration
 
 
 *CLUB*
 	
-   - Identifier
-   - Name
-   - Headquarter
-   - Group
+
+        - Identifier
+        - Name
+        - Headquarter
+        - Group
 
 
 *COMPANY*
 	
-   - Identifier
-   - Name
-   - Adress
-   - Fax
-   - Phone. With out the international prefix, we assume it only have one.
+        - Identifier
+        - Name
+        - Adress
+        - Fax
+        - Phone. With out the international prefix, we assume it only have one.
 
 
 *ALBUM*
 	
-   - Identifier
-   - Name
-   - Publish_date
-   - Company
-   - Group
+        - Identifier
+        - Name
+        - Publish_date
+        - Company
+        - Group
 
 
 *THEME_ALBUM*
 	
-   - Theme
-   - Album
+        - Theme
+        - Album
 
 
 *MUSIC_GROUP*
 	
-   - Identifier
-   - Name
-   - Date of creation
-   - Country
+        - Identifier
+        - Name
+        - Date of creation
+        - Country
 
 
 *MUSIC_MUSIC_GROUP* 
 	
-   - Music
-   - Group
-   - Role in the group
+        - Music
+        - Group
+        - Role in the group
 
 </details>
 
