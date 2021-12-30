@@ -238,12 +238,12 @@ A list of technologies used within the project:
 
 *MUSIC_GROUP*
 	
-    001 ;  U2                   ;  1977-01-01 ;  Inglaterra  
-    002 ;  Simple Minds         ;  1979-02-09 ;  Inglaterra  
-    003 ;  Mike + The Mechanics ;  1988-04-06 ;  Inglaterra  
-    004 ;  Genesis              ;  1975-10-10 ;  Inglaterra  
-    005 ;  Presuntos Implicados ;  1985-11-01 ;  España  
-    006 ;  Radio Futura         ;  1980-01-07 ;  España
+    001 ;  U2                   ;  1977-01-01 ;  United Kingdown  
+    002 ;  Simple Minds         ;  1979-02-09 ;  United Kingdown 
+    003 ;  Mike + The Mechanics ;  1988-04-06 ;  United Kingdown
+    004 ;  Genesis              ;  1975-10-10 ;  United Kingdown
+    005 ;  Presuntos Implicados ;  1985-11-01 ;  Spain  
+    006 ;  Radio Futura         ;  1980-01-07 ;  Spain
 
 
 *CLUB*
@@ -346,26 +346,26 @@ A list of technologies used within the project:
 
 *MUSIC_MUSIC_GROUP*
 
-    1111111111 ;  003 ;  teclado  
-    1111111112 ;  001 ;  bajo  
-    1111111113 ;  001 ;  voz  
-    1111111114 ;  002 ;  guitarra  
-    1111114444 ;  006 ;  batería  
-    2345678444 ;  001 ;  guitarra  
-    3232456547 ;  004 ;  voz  
-    3333567898 ;  006 ;  voz  
-    3454677777 ;  002 ;  voz  
-    4444444444 ;  001 ;  batería  
-    4454321111 ;  006 ;  bajo  
-    5454532222 ;  003 ;  voz  
-    5555678976 ;  006 ;  guitarra  
-    5556787777 ;  005 ;  guitarra  
-    5656378999 ;  005 ;  voz  
-    6666667885 ;  005 ;  bajo  
-    7654323234 ;  003 ;  batería  
-    7876543428 ;  004 ;  teclado  
-    8884566666 ;  003 ;  bajo  
-    8884566666 ;  004 ;  bajo
+    1111111111 ;  003 ;  keyboard  
+    1111111112 ;  001 ;  bass  
+    1111111113 ;  001 ;  voice  
+    1111111114 ;  002 ;  guitar  
+    1111114444 ;  006 ;  drums  
+    2345678444 ;  001 ;  guitar  
+    3232456547 ;  004 ;  voice
+    3333567898 ;  006 ;  voice
+    3454677777 ;  002 ;  voice
+    4444444444 ;  001 ;  drums  
+    4454321111 ;  006 ;  bass  
+    5454532222 ;  003 ;  voice  
+    5555678976 ;  006 ;  guitar  
+    5556787777 ;  005 ;  guitar  
+    5656378999 ;  005 ;  voice  
+    6666667885 ;  005 ;  bass  
+    7654323234 ;  003 ;  drums  
+    7876543428 ;  004 ;  keyboard  
+    8884566666 ;  003 ;  bass  
+    8884566666 ;  004 ;  bass
 
 </details>
 
