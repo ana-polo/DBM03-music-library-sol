@@ -51,7 +51,7 @@ Students:
 
         1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not.
         2. Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc.
-        3. Save all the orders that you need in the file whose name is **DDL-03-music-library.sql** inside the **DBM03-SQL** directory.
+        3. Save all the orders that you need in the file whose name is **DDL_music_library.sql** inside the **DBM03-SQL** directory.
 
 
 ⚠️ **WARNING:** 
@@ -137,7 +137,7 @@ Students:
 
 👀 **Remember to not forget!**
 - Properly format and document the code.
-- Save all the orders that you need in the file whose name is **DML-music-library.sql** inside the **DBM03-SQL** directory.
+- Save all the orders that you need in the file whose name is **DML_music_-_library.sql** inside the **DBM03-SQL** directory.
 
  
 
