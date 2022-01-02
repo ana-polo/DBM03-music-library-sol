@@ -2,155 +2,162 @@
 
 ![Logo de Team](https://github.com/ana-polo/DBM03-music-library/blob/main/DBM.gif "Team logo")
 
-<a name="top"></a>
-
 ## Table of Contents
 
-1. [General Info.](#general-info)
-2. [Technologies.](#technologies)
-3. [Collaboration.](#collaboration)
-4. [Problem definition.](#problem-definition)
-    1. [Creation of the tables of the DB.](#create)
-    2. [Recording data.](#insert)
- 
+1. General Info.
+2. Technologies.
+3. Collaboration.
+4. Problem definition.
+    1. DDL: Creation of the tables of the DB.
+    2. DML:Recording data.
+
 &nbsp;
-<a name="general-info"></a>
 
 ### 1. General Info
 
 ***
-Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems*
+
+Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.
 
 &nbsp;
-<a name="technologies"></a>
 
 ### 2. Technologies
 
 ***
-A list of technologies used within the project:
-*MySQL: Version 8.0*
-    - SQL-DDL: Data Definition Language.
-    - SQL-DDL: Data Definition Language.
+
+*MySQL* Version 8.0
+
+    - **SQL-DDL**: Data Definition Language.
+    - **SQL-DML**: Data Manipulation Language.
 
 &nbsp;
-<a name="collaboration"></a>
 
 ### 3. Collaboration
 
 ***
-Students:
 
 - *Haplo35.*
 - *ErnestoPGH.*
 - *IrvingVqz.*
 
 &nbsp;
-<a name="problem-definition"></a>
 
 ### 4. Problem definition
 
 ***
-<a name="create"></a>
 
-#### i. Create a new database called music-library with the following tables in the new database
+#### i. DDL
 
-#
+***
 
 📝 **TO DO:**
+    1. Create a new database called music-library with the following tables in the new database.
 
         1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not.
-        2. Think about the order in which you will create the tables, keep in mind the restrictions. Define ALL possible constraints primary keys, foreign keys, etc.
-        3. Save all the orders that you need in the file whose name is **DDL_music_library.sql** inside the **DBM03-SQL** directory.
+        2. Think about the order in which you will create the tables. 
+        3. Keep in mind the restrictions. 
+        4. Define ALL possible constraints primary keys, foreign keys, etc.
+   
+    2. Save all the orders that you need in a file named DDL_music_library.sql in DBM03-SQL directory.
+
+&nbsp;
 
 ⚠️ **WARNING:**
 
 - All the operations must be done in the creation of the tables.
 
+&nbsp;
+
 👀 **Remember to not forget!**
 
 - Properly format and document the code.
 
 &nbsp;
+
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
-<br />
- 
-*MUSIC*
- 
-        - NIF. IDENTIFIER.
-        - Name
 
-*THEME*
- 
-        - Identifier
-        - Title
-        - Duration
+&nbsp;
 
-*CLUB*
- 
-        - Identifier
-        - Name
-        - Headquarter
-        - Group
+##### MUSIC
 
-*COMPANY*
- 
-        - Identifier
-        - Name
-        - Adress
-        - Fax
-        - Phone. With out the international prefix, we assume it only have one.
+    -  NIF. IDENTIFIER.
+    -  Name
 
-*ALBUM*
- 
-        - Identifier
-        - Name
-        - Publish_date
-        - Company
-        - Group
+##### THEME
 
-*THEME_ALBUM*
- 
-        - Theme
-        - Album
+    -  Identifier
+    -  Title
+    -  Duration
 
-*MUSIC_GROUP*
- 
-        - Identifier
-        - Name
-        - Date of creation
-        - Country
+##### CLUB
 
-*MUSIC_MUSIC_GROUP*
- 
-        - Music
-        - Group
-        - Role in the group
+    -  Identifier
+    -  Name
+    -  Headquarter
+    -  Group
+
+##### COMPANY
+
+    -  Identifier
+    -  Name
+    -  Adress
+    -  Fax
+    -  Phone. With out the international prefix, we assume it only have one.
+
+##### ALBUM
+
+    -  Identifier
+    -  Name
+    -  Publish_date
+    -  Company
+    -  Group
+
+##### THEME_ALBUM
+
+    -  Theme
+    -  Album
+
+##### MUSIC_GROUP
+
+    -  Identifier
+    -  Name
+    -  Date of creation
+    -  Country
+
+##### MUSIC_MUSIC_GROUP
+
+    -  Music
+    -  Group
+    -  Role in the group
 
 </details>
 
 &nbsp;
 &nbsp;
-<a name="insert"></a>
 
-#### ii. Recording data
+#### ii. DML
 
-#
+***
+
+📝 **TO DO:**
+
+    1. Record the data in the next list.   
+    2. Save all the orders that you need in a file named DML_music_library.sql in DBM03-SQL directory.
 
 👀 **Remember to not forget!**
 
 - Properly format and document the code.
-- Save all the orders that you need in the file whose name is **DML_music_-_library.sql** inside the **DBM03-SQL** directory.
 
 &nbsp;
 
 <details>
     <summary>CLICK ME TO SEE THE DATA</summary>
 
-<br />
+&nbsp;
 
-*MUSIC*
- 
+##### MUSIC
+
     1111111111 ;  Adrian Lee  
     1111111112 ;  Adam Clayton  
     1111111113 ;  Bono  
@@ -171,8 +178,8 @@ Students:
     7876543428 ;  Tony Banks  
     8884566666 ;  M. Rutherford
 
-*THEME*
- 
+##### THEME
+
     1  ;  20th Century Promise ;  4  
     2  ;  37 grados            ;  4  
     3  ;  4th of July          ;  3  
@@ -225,8 +232,8 @@ Students:
     50 ;  El nadador           ;  3  
     51 ;  Elvis Presley & USA  ;  3 
 
-*COMPANY*
- 
+##### COMPANY
+
     001 ;  Island     ;  67 ;  JB St.  ;       78782222 ;       72724444  
     002 ;  ARIOLA     ;  Aragón 204    ;      913667889 ;      913667890  
     003 ;  WEA        ;  L Hoyos 42    ;      932401212 ;      932401213  
@@ -235,8 +242,8 @@ Students:
     006 ;  PoliDiscos ;  Camí de Vera  ;        3870001 ;        3870000  
     007 ;  PoliDiscos ;  Polynesia St. ;      942380540 ;      942380522
 
-*MUSIC_GROUP*
- 
+##### MUSIC_GROUP
+
     001 ;  U2                   ;  1977-01-01 ;  United Kingdown  
     002 ;  Simple Minds         ;  1979-02-09 ;  United Kingdown 
     003 ;  Mike + The Mechanics ;  1988-04-06 ;  United Kingdown
@@ -244,8 +251,8 @@ Students:
     005 ;  Presuntos Implicados ;  1985-11-01 ;  Spain  
     006 ;  Radio Futura         ;  1980-01-07 ;  Spain
 
-*CLUB*
- 
+##### CLUB
+
     001 ;  Zoomanía        ;  33, Abbey Road       ;  001  
     002 ;  u2foryou        ;  23, 11th Street      ;  001  
     003 ;  Ché U2          ;  C/ Almussafes 59     ;  001  
@@ -264,8 +271,8 @@ Students:
     016 ;  Implicado       ;  Torrejón de Ardoz 12 ;  005  
     017 ;  Los Culpables   ;  C/ Maria Cristina 67 ;  005 
 
-*ALBUM*
- 
+##### ALBUM
+
     001 ;  October              ;  1981-10-12 ;  001 ;  001  
     002 ;  Zooropa              ;  1994-08-10 ;  001 ;  001  
     003 ;  The unforgettable fi ;  1983-03-07 ;  001 ;  001  
@@ -285,8 +292,8 @@ Students:
     017 ;  La ley del desierto  ;  1984-03-02 ;  002 ;  006  
     018 ;  La canción de JPerro ;  1987-04-03 ;  002 ;  006
 
-*THEME_ALBUM*
- 
+##### THEME_ALBUM
+
     19 ;  002  
     37 ;  002  
     41 ;  002  
@@ -339,7 +346,7 @@ Students:
     48 ;  018  
     49 ;  018 
 
-*MUSIC_MUSIC_GROUP*
+##### MUSIC_MUSIC_GROUP
 
     1111111111 ;  003 ;  keyboard  
     1111111112 ;  001 ;  bass  
