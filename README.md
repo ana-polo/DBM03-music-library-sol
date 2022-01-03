@@ -8,6 +8,7 @@
 2. Technologies.
 3. Collaboration.
 4. Problem definition.
+    
     1. DDL: Creation of the tables of the DB.
     2. DML:Recording data.
 
