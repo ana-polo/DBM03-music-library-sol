@@ -27,8 +27,8 @@ Training exercise of design and management of databases carried out in the field
 
 *MySQL* Version 8.0
 
-    - **SQL-DDL**: Data Definition Language.
-    - **SQL-DML**: Data Manipulation Language.
+- **SQL-DDL**: Data Definition Language.
+- **SQL-DML**: Data Manipulation Language.
 
 &nbsp;
 
@@ -51,6 +51,7 @@ Training exercise of design and management of databases carried out in the field
 ***
 
 📝 **TO DO:**
+
     1. Create a new database called music-library with the following tables in the new database.
 
         1. Decide the appropriate name for each field, the most appropriate data type and whether it is mandatory that the field be informed or not.
