@@ -1,6 +1,6 @@
 # DBM03-Music library
 
-![Logo de Team](https://github.com/ana-polo/DBM03-music-library/blob/main/DBM.gif "Team logo")
+![Logo de Team](https://github.com/ana-polo/DBM03-music-library-sol/blob/main/DBM.gif "Team logo")
 
 ## Table of Contents
 
