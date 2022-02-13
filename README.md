@@ -1,4 +1,4 @@
-# DBM03-Music library
+# DBM03-Music library sol
 
 ![Logo de Team](https://github.com/ana-polo/DBM03-music-library-sol/blob/main/DBM.gif "Team logo")
 
